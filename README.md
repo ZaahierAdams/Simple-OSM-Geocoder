@@ -6,8 +6,7 @@ This is a Python application for geocoding addresses.
 It converts addresses to geographical coordinates using the open-source API *Nominatim*. 
 
 ### This repository includes:
-- ``` Simple OSM Geocoder.exe``` the application as an executable  
-- ``` main.py``` the application’s raw code  
+- ``` main.py``` the application’s python code  
 - ```input.csv``` test input data for the application 
 
 ## How to use 
@@ -18,8 +17,7 @@ It converts addresses to geographical coordinates using the open-source API *Nom
   
   
 2. To Run the application, either:
-    - Double click on the ``` Simple OSM Geocoder.exe``` 
-    - **(or)** run the ``` main.py```. You will need to install [Python]( https://www.python.org/downloads/) and the [Geocoder]( https://pypi.org/project/geocoder/) library.
+    - Run ``` main.py```. You will need to install [Python]( https://www.python.org/downloads/) and the [Geocoder]( https://pypi.org/project/geocoder/) library.
 
 
 3. Once completed, the application will produce two .csv files: 
