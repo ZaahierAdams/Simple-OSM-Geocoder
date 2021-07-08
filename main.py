@@ -1,3 +1,8 @@
+'''
+Developed by: Zaahier Adams
+https://github.com/ZaahierAdams
+'''
+
 from geocoder import osm
 from csv import writer as CSVwritter
 from csv import reader
