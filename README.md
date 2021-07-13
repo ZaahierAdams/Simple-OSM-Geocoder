@@ -16,7 +16,7 @@ It converts addresses to geographical coordinates using the open-source API *Nom
  	- Within ```input.csv``` list the addresses to be geocoded
   
   
-2. To Run the application, either:
+2. To Run the application:
     - Run ``` main.py```. You will need to install [Python]( https://www.python.org/downloads/) and the [Geocoder]( https://pypi.org/project/geocoder/) library.
 
 
