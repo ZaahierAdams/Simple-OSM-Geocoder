@@ -1,0 +1,19 @@
+# Sends this repo's commit / lines-of-code / size history to Repo Timelapse.
+# https://github.com/ZaahierAdams/repo-timelapse — no secrets needed.
+name: Repo Timelapse
+
+on:
+  push:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: repo-timelapse
+  cancel-in-progress: true
+
+jobs:
+  stats:
+    uses: ZaahierAdams/repo-timelapse/.github/workflows/repo-stats.yml@main
